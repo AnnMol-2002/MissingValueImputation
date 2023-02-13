@@ -1,0 +1,2 @@
+# MissingValueImputation
+Here first I fetched the dataset of Diamond Price Prediction from OpenML using scikit-learn python library. Then mode the dataframe df . After the dataframe is created 5% of the values in column 'carat' is replaced with the nan value. Later this nan values are handled by replacing those nan values with the mean of the rest non-nan values. Then this values is used to predict the price of the diamond. After the value is predicted with this value the Root Mean Squared Error is determined.
